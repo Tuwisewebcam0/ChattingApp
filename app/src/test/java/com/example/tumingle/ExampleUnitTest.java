@@ -1,4 +1,4 @@
-package com.example.tudatingapp;
+package com.example.tumingle;
 
 import org.junit.Test;
 

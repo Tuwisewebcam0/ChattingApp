@@ -1,11 +1,10 @@
-package com.example.tudatingapp;
+package com.example.tumingle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.example.tudatingapp.R;
-import com.example.tudatingapp.databinding.ActivitySignUpBinding;
+import com.example.tumingle.databinding.ActivitySignUpBinding;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class SignUpActivity extends AppCompatActivity {

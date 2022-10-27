@@ -7,7 +7,7 @@
     android:background="@drawable/teeside_theme"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="com.example.tudatingapp.SignInActivity">
+    tools:context="com.example.tumingle.com.example.tumingle.SignInActivity">
 
     <LinearLayout
         android:layout_width="375dp"
