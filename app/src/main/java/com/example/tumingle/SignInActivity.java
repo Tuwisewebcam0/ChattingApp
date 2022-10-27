@@ -1,4 +1,4 @@
-package com.example.tudatingapp;
+package com.example.tumingle;
 
 import androidx.appcompat.app.AppCompatActivity;
 

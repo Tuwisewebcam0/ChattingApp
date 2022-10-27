@@ -1,10 +1,8 @@
-package com.example.tudatingapp;
+package com.example.tumingle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-
-import com.example.tudatingapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
