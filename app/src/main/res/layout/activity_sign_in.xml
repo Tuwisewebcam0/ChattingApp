@@ -4,27 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.soulmatedatingapp.SignInActivity"
-    android:background="@color/pink_500"
-    android:backgroundTint="#393BD1AE"
+    android:background="@drawable/teeside_theme"
     android:gravity="center"
     android:orientation="vertical"
-    >
+    tools:context="com.example.tudatingapp.SignInActivity">
+
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="375dp"
         android:layout_height="wrap_content"
 
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
-        android:background="#087C1B1B"
+        android:alwaysDrawnWithCache="false"
+        android:animateLayoutChanges="false"
+        android:background="@drawable/lover_pic"
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="173dp"
-            android:layout_height="246dp"
-            app:srcCompat="@drawable/love_svgrepo_com" />
+            android:layout_width="350dp"
+            android:layout_height="254dp"
+            app:srcCompat="@drawable/ddd" />
 
 
         <EditText
@@ -40,7 +41,9 @@
             android:hint="Email"
             android:inputType="textEmailAddress"
             android:marqueeRepeatLimit="marquee_forever"
-            android:padding="9dp" />
+            android:minHeight="48dp"
+            android:padding="9dp"
+            android:textSize="15dp" />
 
         <EditText
             android:id="@+id/etPassword"
@@ -55,7 +58,8 @@
             android:hint="Password"
             android:inputType="textPassword"
             android:marqueeRepeatLimit="marquee_forever"
-            android:padding="9dp" />
+            android:padding="9dp"
+            android:textSize="15dp" />
 
         <TextView
             android:id="@+id/existingUser"
@@ -65,32 +69,30 @@
             android:gravity="right"
             android:padding="3dp"
             android:text="Create Account"
-            android:textColor="#202C1D"
+            android:textColor="#8FE82B"
+            android:textSize="15dp"
             android:textStyle="bold" />
 
     </LinearLayout>
 
 
     <Button
-        android:id="@+id/btn_SignIp"
-        style="SignUp"
-        android:layout_width="150dp"
+        android:id="@+id/btn_SignIn"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="5dp"
-        android:background="#FFFFFF"
-        android:insetTop="3dp"
-        android:insetBottom="4dp"
-        android:padding="7dp"
-        android:paddingLeft="14dp"
-        android:paddingRight="14dp"
-        android:text="Sign In"
-        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:text="SIGN IN"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:textColor="#C1AF38"
+        android:textSize="18sp"
         android:textStyle="bold"
-        app:cornerRadius="4dp" />
+        app:cornerRadius="8dp" />
 
     <LinearLayout
         android:layout_width="357dp"
-        android:layout_height="63dp"
+        android:layout_height="wrap_content"
         android:layout_margin="3dp"
         android:layout_marginTop="25dp"
         android:orientation="horizontal">
@@ -102,36 +104,43 @@
             android:layout_marginRight="4dp"
             android:layout_marginBottom="5dp"
             android:layout_weight="1"
+            android:background="#FFFFFF"
             android:backgroundTint="@color/fb_color"
             android:drawableLeft="@drawable/facebook_svgrepo_com"
             android:padding="15dp"
             android:text="Facebook"
-            app:cornerRadius="4dp" />
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:cornerRadius="10dp" />
+
 
         <Button
             android:id="@+id/btn_gmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="4dp"
-            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
             android:layout_weight="1"
+            android:background="#FFFFFF"
             android:backgroundTint="@color/white"
             android:drawableLeft="@drawable/gmail_svgrepo_com"
             android:padding="15dp"
             android:text="Gmail"
-            android:textColor="#090909"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15dp"
             android:textStyle="bold"
-            app:cornerRadius="4dp" />
+            app:cornerRadius="10dp" />
     </LinearLayout>
 
     <TextView
-        android:id="@+id/signUpPhone"
+        android:id="@+id/signInPhone"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:layout_margin="3dp"
         android:layout_marginTop="15dp"
-        android:text="Sign Up with Phone"
-        android:textColor="#404543"
+        android:text="Sign In with Phone"
+        android:textColor="#CC5247"
         android:textSize="18dp"
         android:textStyle="bold" />
 

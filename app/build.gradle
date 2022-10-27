@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.chattingapp'
+    namespace 'com.example.tudatingapp'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.chattingapp"
+        applicationId "com.example.tudatingapp"
         minSdk 21
         targetSdk 32
         versionCode 1

@@ -1,11 +1,11 @@
-package com.example.soulmatedatingapp;
+package com.example.tudatingapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.example.chattingapp.R;
-import com.example.chattingapp.databinding.ActivitySignUpBinding;
+import com.example.tudatingapp.R;
+import com.example.tudatingapp.databinding.ActivitySignUpBinding;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class SignUpActivity extends AppCompatActivity {
