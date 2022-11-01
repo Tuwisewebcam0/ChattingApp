@@ -7,7 +7,7 @@
     android:background="@drawable/teeside_theme"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="com.example.tumingle.com.example.tumingle.SignUpActivity">
+    tools:context=".SignUpActivity">
 
     <LinearLayout
         android:layout_width="375dp"
@@ -39,7 +39,7 @@
             android:inputType="textPersonName"
             android:marqueeRepeatLimit="marquee_forever"
             android:padding="9dp"
-            android:textSize="15dp" />
+            android:textSize="18dp" />
 
         <EditText
             android:layout_width="match_parent"
@@ -65,12 +65,12 @@
             android:layout_marginBottom="15dp"
             android:background="#F44336"
             android:backgroundTint="@color/white"
-            android:ems="10"
+            android:ems="12"
             android:hint="Password"
             android:inputType="textPassword"
             android:marqueeRepeatLimit="marquee_forever"
             android:padding="9dp"
-            android:textSize="15dp" />
+            android:textSize="20dp" />
 
         <TextView
             android:layout_width="132dp"
@@ -112,7 +112,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:layout_width="99dp"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="4dp"
             android:layout_marginBottom="5dp"
@@ -123,13 +123,13 @@
             android:padding="15dp"
             android:text="Facebook"
             android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
             android:textStyle="bold"
-            app:cornerRadius="10dp" />
+            app:cornerRadius="14dp" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="4dp"
             android:layout_marginRight="4dp"

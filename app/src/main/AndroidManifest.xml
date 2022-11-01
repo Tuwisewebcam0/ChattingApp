@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.tumingle">
+    package="com.example.tumingle"
+    xmlns:dist="http://schemas.android.com/apk/distribution">
 
+    <dist:module dist:instant="true" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="TU Mingle"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@/Theme.TUMingle">
-           <activity android:name=".SignUpActivity"
-               android:exported="true">
+        android:theme="@style/Theme.AppCompat">
+        <activity android:name=".SignInActivity">
+
+
+        </activity>
+        <activity android:name=".SignUpActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-        </activity>
-        <activity android:name=".SignUpActivity"
-            tools:ignore="DuplicateActivity">
-
         </activity>
         <activity android:name=".MainActivity"></activity>
     </application>

@@ -1,1 +1,4 @@
-<resources></resources>
+<resources>
+    <string name="email">Email</string>
+    <string name="sign_in_with_phone">Sign In with Phone</string>
+</resources>
